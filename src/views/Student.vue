@@ -75,8 +75,8 @@ export default {
             }
           },
           indicator: [
-            { name: "数学", max: 120 },
             { name: "语文", max: 120 },
+            { name: "数学", max: 120 },
             { name: "英语", max: 120 },
             { name: "物理", max: 100 },
             { name: "政治", max: 100 },
@@ -123,7 +123,7 @@ export default {
         xAxis: {
           type: "category",
           axisTick: { show: false },
-          data: ["数学", "语文", "英语", "物理", "政治", "历史"]
+          data: ["语文", "数学", "英语", "物理", "政治", "历史"]
         },
         yAxis: {
           type: "value"
@@ -350,5 +350,3 @@ export default {
     }
   }
 </style>
-
-
