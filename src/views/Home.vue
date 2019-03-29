@@ -124,7 +124,5 @@ export default {
       }
     }
   }
-  .home.phone {
-  }
 </style>
 
